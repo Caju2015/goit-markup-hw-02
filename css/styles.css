@@ -69,10 +69,6 @@ a {
     font-style: normal;
 }
 
-.header-address:hover {
-    color: #404bbf;
-}
-
 .header-address {
 }
 
@@ -89,6 +85,14 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.header-address-link:hover {
+    color: #404bbf;
+} 
+
+.header-address-link:focus {
+    color: #404bbf;
+} 
 /* ===HEADER END=== */
 
 /* ===HERO (Section1)=== */
@@ -118,7 +122,6 @@ a {
 .hero-btn > body {
     font-family: "Roboto"; sans-serif;
 }
-
 
 .hero-btn:focus {
     background-color: #404bbf;
@@ -171,11 +174,10 @@ a {
 }
 
 .team-list {
-    
+    background-color: #FFFFFF
 }
 
-.team-item {
-    background-color: #FFFFFF
+.team-item {    
 }
 
 .team-img {
