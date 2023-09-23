@@ -46,10 +46,10 @@ a {
 }
 
 .header-menu-item {
+    color: #2e2f42;
 }
 
 .header-menu-link {
-    color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -171,10 +171,11 @@ a {
 }
 
 .team-list {
-    background-color: #FFFFFF
+    
 }
 
 .team-item {
+    background-color: #FFFFFF
 }
 
 .team-img {
