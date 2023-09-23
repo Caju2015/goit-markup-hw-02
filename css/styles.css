@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+}
+
 body {
     color: #434455;
     background-color: #ffffff;
@@ -42,6 +46,7 @@ a {
 }
 
 .header-menu-item {
+    color: #2e2f42;
 }
 
 .header-menu-link {
@@ -88,7 +93,7 @@ a {
 .hero-btn {
     background-color: #4d5ae5;
     color: #fff;
-    font-family: "Roboto"; sans-serif;
+    
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -96,6 +101,10 @@ a {
     cursor: pointer;
     text-align: center;
 }
+.hero-btn > body {
+    font-family: "Roboto"; sans-serif;
+}
+
 
 .hero-btn:focus {
     background-color: #404bbf;
