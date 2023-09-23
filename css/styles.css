@@ -67,6 +67,7 @@ color: #FFF;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 4em;
+    cursor: pointer;
 }
 
 .advantages {}
