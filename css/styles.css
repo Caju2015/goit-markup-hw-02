@@ -1,7 +1,7 @@
 body {
-    font-family: "Roboto"; sans-serif;
     color: #434455;
     background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -52,7 +52,11 @@ a {
     letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover, .header-menu-link:focus {
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
+.header-menu-link:hover {
     color: #404bbf;
 }
 
@@ -60,6 +64,11 @@ a {
     color: #434455;
     font-style: normal;
 }
+
+.header-address:hover {
+    color: #404bbf;
+}
+
 /* ===HEADER END=== */
 
 /* ===HERO (Section1)=== */
@@ -88,7 +97,11 @@ a {
     text-align: center;
 }
 
-.hero-btn:hover, .hero-btn:focus {
+.hero-btn:focus {
+    background-color: #404bbf;
+}
+
+.hero-btn:hover {
     background-color: #404bbf;
 }
 /* ===HERO (Section1) END=== */
@@ -132,11 +145,10 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-}
-
-.team-list {
     background-color: #FFFFFF
 }
+
+.team-list {}
 
 .team-item {
 }
