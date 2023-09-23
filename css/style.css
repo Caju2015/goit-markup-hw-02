@@ -1,33 +1,102 @@
 body {
-    font-family: "Roboto"; sans-serif;
-    font-size: 16px;
-    color: #434455;
+    font-family: 'Roboto'; sans-serif;
+        color: #434455;
 }
 
+ul { 
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* 
+.list {
+    list-style: none;
+}
+*/
+/* ===HEADER=== */
 .header {}
 
 .header-navigation {}
 
-.header-logo {}
+.header-logo {
+    color: #2E2F42;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+}
+
+.header-logo-color {
+    color: #4D5AE5;
+}
 
 .header-menu-list {}
 
 .header-menu-item {}
 
-.header-menulink {}
+.header-menu-link {
+    color: #2E2F42;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+/* ===HEADER END=== */
 
-.header-menu-link {}
-
-
-
-
-
-
-ul {
-    list-style: none;
+/* ===HERO=== */
+.hero {
+    background-color: #2E2F42;
 }
 
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+.hero-title {
+    color: #FFF;
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+}
 
-font-family: 'Raleway',
-sans-serif;
+.hero-btn {
+color: #FFF;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 4em;
+}
+
+.advantages {}
+
+.advantages-list {}
+
+.advantages-item {}
+
+.advantages-subtitle {}
+
+.advantages-item-text {}
+
+/* ===HERO END=== */
+
+.team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-subtitle {}
+
+.team-positiion {}
+
+
+
+
+
+
